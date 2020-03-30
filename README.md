@@ -30,7 +30,9 @@ Preprocessing of images is done with
 
 --------------------------------------
 Data augmentation is performed using ImageDataGenerator for increasing the number of training samples. Below is visualization of sample augmented images after preprocessing of training dataset.
+
 ![Sample images obtained using data augmentation technique on training dataset](images/Preprocessed_samples.jpg)
+
 --------------------------------------
 CNN model created for training
 - Convolutional layer with 64 filters with kernel size (5,5)
