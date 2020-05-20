@@ -39,13 +39,17 @@ CNN model created for training
 - Relu activation layer
 - Convolutional layer with 64 filters with kernel size (5,5)
 - Relu activation layer
+- Max pooling layer with pool size (2,2)
 - Convolutional layer with 32 filters with kernel size (3,3)
 - Relu activation layer
 - Convolutional layer with 32 filters with kernel size (3,3)
 - Relu activation layer
+- Max pooling layer with pool size (2,2)
 - Fully connected layer with 512 units
 - Relu activation layer with dropout rate of 50%
+- Output layer for 43 classes with softmax activation classifier
 - Adam optimizer with learning rate=0.001 is used for updating the model parameters.
+- Categorical cross-entropy is used for loss and accuracy is used as performance metric.
 
 ![model summary](images/model_summary.png)
 
