@@ -60,9 +60,9 @@ Model is trained for 5 epochs with 2000 iterations per epoch and 50 images per i
 ![Performance history](images/Performance_history.png)
 
 Model's performance after 5 epochs of training on :
--   Training dataset loss --> 0.0952 and accuracy --> 97.1%
+- Training dataset loss --> 0.0952 and accuracy --> 97.1%
 - Validation dataset loss --> 0.0434 and accuracy --> 98.59%
--       Test dataset loss --> 0.0916 and accuracy --> 97.28%
+- Test dataset loss --> 0.0916 and accuracy --> 97.28%
 
 --------------------------------------
 Result of recognition using a test image from a url: https://c8.alamy.com/comp/J2MRAJ/german-road-sign-bicycles-crossing-J2MRAJ.jpg
